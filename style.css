@@ -1,0 +1,98 @@
+.row{
+        margin-top: 50px;
+        margin-left:25%;
+
+}
+body{
+    background-color: #DFE2DB;
+}
+
+ul.Text12 li{
+    margin-left: 26%;
+    background-color: white;
+    margin-bottom: 10px;
+    min-height:50px ;
+    max-width: 500px;
+    padding-top:10px;
+    padding-left: 6px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    position:relative;
+    padding-right: 10px;
+    overflow: auto;
+}
+ul.comp li{
+    margin-left: 26%;
+    background-color: white;
+    margin-bottom: 10px;
+    min-height:50px ;
+    max-width: 500px;
+    padding-top:10px;
+    padding-left: 6px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    position:relative;
+    padding-right: 10px;
+    overflow: auto;
+}
+.buttons{
+    padding-right: 5px;
+    padding-top: 10px;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.buttons button{
+    width:30px;
+    height: 30px;
+    margin-right:5px;
+    background: none;
+    border: 0px;
+
+}
+
+.border{
+    margin-left:21%;
+    margin-top: 5%;
+    padding-left:3%;
+    width: 600px;
+    border-top: solid;
+    border-width: 1px;
+    border-color:seagreen;
+}
+ul.Text12 li:last-of-type{
+    margin-bottom: 0px;
+}
+.buttons button:hover{
+    fill: green;
+}
+
+.buttons button.remove svg{
+
+    width: 22px;
+    height: 22px;
+    fill:red;
+}
+.buttons button.Complete svg{
+    width: 40px;
+    height: 25px;
+    border-radius:15px;
+    border:1.5px solid #25b99a;
+}
+#submitbutton{
+    margin-top: 20px;
+    border-radius: 40px;
+    background-color:#ee6e73;
+}
+
+.checking{
+    margin-left: 5px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color:lightseagreen;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color:lightseagreen;
+}
