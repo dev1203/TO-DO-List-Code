@@ -1,0 +1,2 @@
+This is a Simple To-Do list app that allows user to add, delete and check-mark the tasks.
+This app use Local Storage so that tasks can be stored and retrieved when the browser is closed.
